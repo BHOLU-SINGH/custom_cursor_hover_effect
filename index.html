@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Custom Cursor Hover Effects | Free Projects1 </title>
+    <meta name="keywords" content="cursor hover effect css, cursor hover effect, cursor hover in css, cursor hover hand, cursor hover text, cursor hover link, cursor hovering, hover effekt css, on hover effect css, mouse hover effect in css, css button hover effect, css disable hover effect , add hover effect css, hover effect css button, hover effect css code, hover effect css on text, hover effect css transition, hover effect css examples, hover effect css card, hover effect css library, hover effect css image, hover effect css3, hover effect css link, free projects with source code and documentation, free projects download, free projects for all, free projects with source code, free projects download sites, free projects for cse, free projects for computer science students, free project 1, free projects1, free projects for computer science, free projects on github, free source code for website, free source code projects, free source code download, free source code for website design in html, free projects, free projects 1 blog, freeprojectsforall, free project download, free project, free project file, free project download with source code, free projects 1 blog, bholu, singh, Bholu Singh, bholu singh github,  who is bholu singh, bholu singh bharatpur, Bholu Singh Bikaner, bholu blogger, bholu sigh blog, freeprojects1, freeproject1, FreeProjects1.blogspot.com">
+    <meta name="description" content="It is a Cursor Hover effect free project. In this project, our cursor pointing a small white point and whenever we move our cursor on written text than it's size increases and it's works like a light effect that also change text color.">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Servics</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a></li>
+        <div class="mouse"></div>
+        <script type="text/javascript">
+            const mouse = document.querySelector('.mouse');
+            document.addEventListener('mousemove', (e) => {
+                mouse.style.left = e.pageX + 'px';
+                mouse.style.top = e.pageY + 'px';
+            })
+        </script>
+</body>
+
+</html>
